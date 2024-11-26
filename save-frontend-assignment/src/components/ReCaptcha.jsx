@@ -8,7 +8,7 @@ const ReCaptcha = ({ onVerify }) => {
 
   return (
     <ReCAPTCHA
-      sitekey="6LdRRooqAAAAAOhY1YLzvG4FWwAJ6g8vBFzyMx6V" 
+      sitekey="6LfrmIoqAAAAAGdGto1BUMEv0_Ff4NrNIglMmgCF" 
       onChange={handleVerification}
     />
   );
