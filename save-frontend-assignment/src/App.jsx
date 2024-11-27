@@ -12,11 +12,11 @@ const App = () => {
   const [verified, setVerified] = useState(false);
 
   useEffect(() => {
-    // Fetch data from JSONPlaceholder API
+  
     const fetchPhotos = async () => {
       const response = await fetch("https://jsonplaceholder.typicode.com/photos");
       const data = await response.json();
-      setItems(data.slice(0, 100)); // Limit to 100 items for simplicity
+      setItems(data.slice(0, 100));
     };
     fetchPhotos();
   }, []);
